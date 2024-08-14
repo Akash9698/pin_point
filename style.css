@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  #page1{
+   background-image: url(https://img.freepik.com/free-photo/parked-motorcycles-captured-detailed-vertical-shot_60438-4092.jpg?t=st=1723604819~exp=1723608419~hmac=9830196d9210bb599998d7e383f6306af377184da950b66df363e796aa8854f6&w=1060);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  #page2{
+  
+    height: 400px;
+    width: 100vw;
+    font-size: large;
+    padding: 30px;
+    line-height: 30px;
+  }
+  
+  
+  #head{
+  font-size: 50px;
+  text-align: center;
+  color: rgb(0, 4, 251);
+  background-color: rgb(252, 223, 60);
+  position: relative;
+  
+  }
+  
+  #button{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(255, 255, 255, 0.471);
+  padding: 20px;
+  
+  
+  }
+  
+  .nav{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding:10px 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+  
+  }
+  .nav:hover{
+    background-color: rgb(255, 0, 0);
+    box-shadow: 10px 10px 10px black;
+  }
+  
+  #thank{
+    text-align: center;
+    margin-top: 80px;
+  }
+  img{
+    height: 115px;
+    position: absolute;
+    left: 0;
+    
+  }
+  
+  .logos{
+    padding-left: 88%;
+    position: fixed;
+    height: 150px;
+    width: auto;
+    margin-top: 20%;
+    
+    
+  }
+  
+#content{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+/* Styles for the Services section (page3) */
+#page3 {
+    background-color: #f9f9f9; /* Light grey background for contrast */
+    color: #333; /* Dark text color */
+    padding: 40px 20px; 
+    width: 100vw; /* Full viewport width */
+  }
+  
+  #page3 h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #0044cc; /* Custom color for headings */
+    margin-bottom: 20px;
+  }
+  
+  #page3 p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #page3 ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    margin: 0 auto;
+    max-width: 600px; /* Limit width for readability */
+  }
+  
+  #page3 li {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the Contact section (page4) */
+  #page4 {
+    background-color: #fff; /* White background for clean look */
+    color: #333; /* Dark text color */
+    padding: 40px 20px; 
+    width: 100vw; /* Full viewport width */
+  }
+  
+  #page4 h2 {
+    font-size: 36px;
+    text-align: center;
+    color: #0044cc; /* Custom color for headings */
+    margin-bottom: 20px;
+  }
+  
+  #page4 p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #page4 p strong {
+    color: #000; /* Emphasize contact details */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    #page3 h2, #page4 h2 {
+      font-size: 28px; /* Smaller headings on mobile */
+    }
+  
+    #page3 p, #page4 p {
+      font-size: 16px; /* Smaller text on mobile */
+    }
+  }
+  
